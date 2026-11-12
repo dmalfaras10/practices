@@ -1,7 +1,7 @@
 **Table of Contents**
 
-1. [Introduction](#3-introduction)
-2. [Overall Description](#4-overall-description)
+1. [Introduction](#introduction)
+2. [Overall Description](##overall-description)
 3. [Visual Mockup Reference](#5-visual-mockup-reference)
 4. [Features](#6-features)
 5. [Functional Requirements](#7-functional-requirements)
