@@ -151,7 +151,7 @@
 - **Event Details & Booking:** Displays full event details (schedule, venue, performers, rules), lets users compare and select ticket tiers, processes orders, and delivers digital ticket confirmations.
 - **Contact Us & About Us:** Shares organizational background and policies alongside contact details, social links, and an inquiry form.
 - **Membership & Subscriptions:** Allows users to compare, enroll in, and manage tiered plans (Bronze, Silver, Gold) for perks like discounts, priority booking, and presale access.
-- **Email & Notifications:** Automates alerts for booking/payment confirmations, digital tickets, membership updates, event reminders, and schedule changes.
+- **Email & Notifications:** Automates alerts for booking/payment confirmations, digital tickets, membership updates, event reminders, schedule changes and cancellations.
 
 
 ## 7. Functional Requirements
