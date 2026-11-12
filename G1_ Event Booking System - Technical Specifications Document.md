@@ -21,19 +21,15 @@
 
 ## 3. Introduction
 
-The G1 Event Booking System is a web-based application designed to provide users with a platform convenient for browsing upcoming events, viewing event information, and booking tickets for events online. The system also provides admin privileges that allows authorized individuals to add, update, delete, and manage event listings as well as monitor user/event bookings. Users can also avail for memberships/subscriptions to get exclusive offers and benefits depending on the tier. By centralizing event information and the booking process, the system aims to make event booking more accessible, organized, and efficient.
-
-This paper presents the purpose, scope, features, user roles, and requirements of the proposed G1 Event Booking System. It outlines the system’s expected functionalities and operational environment, as well as the assumptions and dependencies considered during development. As a mock system and side project, the application focuses on demonstrating the fundamental concepts of web-app development, database management, user authentication, and booking management, and thus, is not intended to be fully complete in functionalities outside the disclosed scope.
+  The G1 Event Booking System is a web-based application designed to provide users with a platform convenient for browsing upcoming events, viewing event information, and booking tickets for events online. The system also provides admin privileges that allows authorized individuals to add, update, delete, and manage event listings as well as monitor user/event bookings. Users can also avail for memberships/subscriptions to get exclusive offers and benefits depending on the tier. By centralizing event information and the booking process, the system aims to make event booking more accessible, organized, and efficient.
 
 ### **Purpose**:
 
-  The purpose of the G1 Event Booking System is to develop a web-based event ticketing platform that provides users with a convenient and organized way to discover events, view event details, book tickets, and manage their bookings. The system aims to simplify the booking process by allowing users to check event schedules and ticket availability, access digital tickets, and review their booking history. It also aims to enhance user experience through membership and subscription features, offering exclusive benefits, which may include special discounts, presale access, and member-only offers.
-  
-  Additionally, the system will serve as a management tool for administrators, enabling them to create, update, and manage event listings, monitor bookings, and maintain user records. By centralizing event information and booking activities, the system aims to improve the organization and efficiency of event management. The primary beneficiaries are event attendees and administrators who manage the platform, with the overall goal of providing a user-friendly and reliable event booking experience. 
+  The G1 Event Booking System is a centralized web-based ticketing platform designed to streamline event discovery, ticket purchasing, digital ticket access, and booking management for attendees, enhanced by tiered membership perks like discounts and presale access. For administrators, it provides tools to manage event listings, monitor bookings, and maintain user records—ultimately improving efficiency and organization for both attendees and platform managers.
 
 ### **Scope**:
 
-  The scope of the G1 Event Booking System encompasses the development of a web-based platform that aims to simplify event discovery, ticket booking, and booking management. The system will allow users to register and login to their accounts, browse available events, view event details and ticket availability, book tickets, access booking confirmations, and manage their bookings. It will also include membership and subscription features that provide eligible users with exclusive benefits, such as special discounts, presale access, and member-only promotions. Administrators will be responsible for creating, updating, publishing, and managing event listings, ticket categories, membership plans, user records, and booking information. Physical ticket printing and delivery, transportation and accommodation booking, venue management, and a separate mobile application will remain outside the project’s scope.
+  The G1 Event Booking System covers the development of a web-based platform for user authentication, event discovery, ticket purchasing, booking management, and tiered membership perks (such as discounts and presale access), alongside administrative tools for managing events, tickets, plans, users, and bookings. Physical ticket delivery, travel or lodging bookings, venue management, and a standalone mobile app are excluded from the project's scope.
 
 #### **Definitions, Acronyms, and Abbreviations**:
 
@@ -85,29 +81,8 @@ This paper presents the purpose, scope, features, user roles, and requirements o
 
   The system will support two primary user classes:
   
-  * **Users/Attendees**  
-    * Individuals who access the platform to:  
-      * Browse events  
-      * View event details  
-      * Purchase tickets  
-      * Manage bookings  
-      * Access digital tickets  
-      * Manage their profiles  
-      * Experience membership benefits  
-    * The users’ access will be limited to their:  
-      * Personal account  
-      * Bookings  
-      * Available event services  
-  * **System Admins**  
-    * System administrators are responsible for:  
-      * Managing, and maintaining the platform's event-related information  
-      * Managing, and maintaining booking records  
-      * Creating, updating, and removing event listings  
-      * Manage ticket categories and membership plans  
-      * Monitor user transactions   
-    * The admins’ access will include:  
-      * Administrative functions necessary to oversee system operations  
-      * Ensure that information is accurate and properly maintained
+  * **Users/Attendees**: Access the platform to browse events, purchase and view digital tickets, manage personal profiles and bookings, and utilize membership benefits. Access is restricted to their own account, bookings, and available event services.
+  * **System Admins**: Oversee system operations and data accuracy by managing event listings, ticket categories, membership plans, booking records, and user transactions.
 
 ### **Operating Environment**:
 
