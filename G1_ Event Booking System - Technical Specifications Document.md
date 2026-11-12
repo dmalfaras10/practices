@@ -58,7 +58,7 @@
 
   The G1 Event Booking System is a centralized web-based application that simplifies online ticket booking by allowing attendees to browse events, check availability, purchase digital tickets, view booking history, and manage membership benefits. For administrators, it provides tools to manage events, ticket categories, bookings, transactions, and user records.
 
-### **Product Functions**:-
+### **Product Functions**:
 
   The G1 Event Booking System will provide the following high-level functionalities:
   
