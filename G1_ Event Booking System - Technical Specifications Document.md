@@ -1,16 +1,3 @@
-
-
-**G1: Event Booking System**  
-*Version 1.0*
-
-October 19, 2026
-
-Authors:  
-Dan Michael Alfaras  
-Matthew Antonio Bulaong  
-Jovie Cleofas  
-Aaron Angelo Crisologo
-
 **Table of Contents**
 
 # **Introduction** {#introduction}
