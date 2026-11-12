@@ -1,5 +1,17 @@
 **Table of Contents**
 
+1. [Introduction](#3-introduction)
+2. [Overall Description](#4-overall-description)
+3. [Visual Mockup Reference](#5-visual-mockup-reference)
+4. [Features](#6-features)
+5. [Functional Requirements](#7-functional-requirements)
+6. [Non-Functional Requirements](#8-non-functional-requirements)
+7. [Data Requirements](#9-data-requirements)
+8. [External Interface Requirements](#10-external-interface-requirements)
+9. [Glossary](#11-glossary)
+10. [Appendices](#12-appendices)
+
+
 # **Introduction** {#introduction}
 
 The G1 Event Booking System is a web-based application designed to provide users with a platform convenient for browsing upcoming events, viewing event information, and booking tickets for events online. The system also provides admin privileges that allows authorized individuals to add, update, delete, and manage event listings as well as monitor user/event bookings. Users can also avail for memberships/subscriptions to get exclusive offers and benefits depending on the tier. By centralizing event information and the booking process, the system aims to make event booking more accessible, organized, and efficient.
