@@ -175,11 +175,42 @@
   - **Error Handling**: 
 
 ## 8. Non-Functional Requirements
-- **Performance**: Describe performance requirements.
-- **Security**: Outline security needs.
-- **Usability**: Detail user interface and experience considerations.
-- **Reliability**: Define reliability and availability requirements.
-- **Supportability**: Specify maintenance and support requirements.
+  **Performance**
+  * Ensure pages load efficiently and API requests respond quickly under normal workloads.
+  * Optimize database queries with appropriate indexes and support pagination on event listings to prevent excessive data loading.
+  * Return event search and filter results efficiently, and process membership eligibility and discount calculations quickly during checkout.
+  * Safely update ticket inventory to prevent overselling during simultaneous purchases.
+  * Provide timely payment status updates without blocking other website operations.
+  * Scale smoothly without significant performance degradation as users, events, bookings, and tickets increase.
+
+  **Security**
+  * Hash passwords securely with Bcrypt and manage authentication/authorization via JSON Web Tokens (JWT).
+  * Perform backend input validation and secure payment processing through the selected gateway, verifying all gateway notifications before updating statuses.
+  * Restrict system record management, membership perks, and user data access (bookings, tickets, subscriptions) through rigorous backend authorization and role verification.
+  * Protect against common web vulnerabilities (injection, XSS) and prevent exposure of sensitive information in API responses or logs.
+  * Store database credentials, API keys, and secrets securely using environment variables or dedicated management mechanisms.
+
+  **Usability**
+  * Provide a simple, consistent, responsive interface across desktop, tablet, and mobile devices with clear navigation and readable elements.
+  * Display transparent pricing, discounts, and subscription details (benefits, eligibility, duration, expiration).
+  * Guide users through a straightforward process for viewing events, selecting tickets, and completing checkout.
+  * Deliver clear confirmation messages for successful registrations, bookings, payments, and subscriptions.
+  * Provide helpful, actionable error messages that explain problems and solutions.
+  * Distinguish ticket statuses clearly (valid, used, cancelled, refunded).
+
+  **Reliability**
+  * Maintain data consistency across bookings, payments, tickets, and subscriptions using database transactions, ensuring failed transactions never generate confirmed tickets.
+  * Prevent duplicate bookings, ticket issuance, or order completion from repeated payment notifications or temporary external service failures, while properly tracking payment states * (pending, successful, failed, cancelled, refunded).
+  * Ensure strict inventory and redemption accuracy by keeping ticket availability precise during simultaneous purchases and preventing single tickets from being redeemed more than once.
+  * Restrict subscription perks exclusively to active, eligible statuses.
+  * Maintain deployment-appropriate database backups, handle errors gracefully without leaking sensitive details, and log operational issues for effective debugging.
+  
+  **Supportability**
+  * Organize source code into maintainable modules and document API endpoints and database structures.
+  * Utilize version control during development and design flexible database schemas to easily accommodate future updates and additional features without redundancy.
+  * Test core ticketing and membership functions—as well as feature changes—to prevent regressions.
+  * Review and update project dependencies regularly to address compatibility issues and security vulnerabilities.
+ 
 
 ## 9. Data Requirements
 - **Data Models**: Include simple diagrams if possible.
