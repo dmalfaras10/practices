@@ -142,11 +142,17 @@
 ## 5. Visual Mockup Reference
 - **Link or Screenshot**: [G1: Event Booking System Figma Visual Mockup](https://www.figma.com/design/GEkylbxWNNZ7c7XL5YBRtb/Event-Booking-Side-Project?node-id=0-1&t=MZUb4SSz7qulHcHh-1)
 
+
 ## 6. Features
-- **Feature 1**: Description
-- **Feature 2**: Description
-- **Feature 3**: Description
-- (Add more features as necessary)
+- **Search & Navigation:** Offers a search bar and clear navigation across key pages (Homepage, Event Listings, About Us, Contact Us, and Membership).
+- **User Accounts & Profile Management:** Supports registration, login, password recovery, profile updates, and tracking of upcoming events and booking history.
+- **Homepage & Featured Shows:** Highlights popular and upcoming events via a hero carousel, displays essential event details, and includes an FAQ section.
+- **Event Listings:** Enables browsing and filtering events by category, month, location, venue, price, and genre, supported by an interactive calendar, availability statuses, and promotions.
+- **Event Details & Booking:** Displays full event details (schedule, venue, performers, rules), lets users compare and select ticket tiers, processes orders, and delivers digital ticket confirmations.
+- **Contact Us & About Us:** Shares organizational background and policies alongside contact details, social links, and an inquiry form.
+- **Membership & Subscriptions:** Allows users to compare, enroll in, and manage tiered plans (Bronze, Silver, Gold) for perks like discounts, priority booking, and presale access.
+- **Email & Notifications:** Automates alerts for booking/payment confirmations, digital tickets, membership updates, event reminders, and schedule changes.
+
 
 ## 7. Functional Requirements
 ### Use Cases
