@@ -56,18 +56,16 @@
 
 ### **Product Perspective**:
 
-  The G1 Event Booking System is a web-based application designed to provide a centralized platform where users can browse upcoming events, view event details, check ticket availability, and purchase tickets online. It aims to simplify the booking process by reducing manual procedures and making event information more accessible.
-  
-  The system will serve different users, including event attendees and administrators. Users can register and log in, purchase tickets, access digital tickets, view booking history, and manage membership benefits. Administrators can create and manage events, organize ticket categories, monitor bookings and transactions, and maintain user records.
+  The G1 Event Booking System is a centralized web-based application that simplifies online ticket booking by allowing attendees to browse events, check availability, purchase digital tickets, view booking history, and manage membership benefits. For administrators, it provides tools to manage events, ticket categories, bookings, transactions, and user records.
 
-### **Product Functions**:
+### **Product Functions**:-
 
   The G1 Event Booking System will provide the following high-level functionalities:
   
   1. **User Registration and Authentication**  
       * Users are able to create accounts, log in, log out, and manage their profile information securely  
   2. **Event Browsing and Search**   
-      * Enables users to browse upcoming events, search for specific events, view event details, check ticket availability, and explore  Bronze, Silver, and Gold ticket options.   
+      * Enables users to browse upcoming events, search for specific events, view event details, and check ticket availability.   
   3. **Administrative Management**   
       * Enables administrators to manage user records, monitor ticket sales and booking transactions, track ticket availability, and oversee event operations.   
   4. **Event Booking & Payment**  
@@ -75,7 +73,7 @@
   5. **Booking Management & Ticket Management**  
       * Generates booking references and digital tickets for successful transactions. Allows users to view booking history, check ticket status, and access their ticket information.   
   6. **Membership Subscription**  
-      * Enables users to explore and subscribe to Bronze, Silver, and Gold membership plans to unlock exclusive perks such as ticket discounts, presale access, and member-only offers. Allows users to monitor their subscription status and manage plan renewals through their accounts.
+      * Enables users to explore and subscribe to Bronze, Silver, and Gold membership plans to unlock exclusive perks. Allows users to monitor their subscription status and manage plan renewals through their accounts.
 
 ### **User Classes and Characteristics**:
 
