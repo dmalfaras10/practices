@@ -1,10 +1,9 @@
 # Technical Specifications Document
 
-## 1. Title Page
-- **Project Name**: 
-- **Version**: 
-- **Date**: 
-- **Author(s)**: 
+## 1. G1: Event Booking System
+- **Version**: 1.0
+- **Date**: October 19, 2026
+- **Author(s)**: Dan Michael Alfaras, Matthew Antonio Bulaong, Jovie Cleofas, Aaron Angelo Crisologo
 
 ## 2. Table of Contents
 1. [Introduction](#3-introduction)
