@@ -122,26 +122,21 @@
   
   The development of the G1 Event Booking System is based on the following assumptions:
   
-  * Users will have access to an internet-connected device and a compatible web browser.  
-  * Users will provide accurate information when registering and managing their accounts.  
-  * Administrators will provide correct and updated event details, ticket prices, and membership information.  
-  * The development team will receive the necessary requirements, business rules, and workflows from the project stakeholders.  
-  * Users will have the appropriate permissions to access the system's features.  
-  * The selected technologies will support the required functionalities of the system.  
-  * Payment transaction processing features and integration with third-party payment gateways will be implemented in the future once the MVP requirements have been finished.  
-  * Email or notification service features will be implemented in the future once the MVP requirements have been finished.
+  * Users and administrators have access to an internet-connected device and compatible browser.
+  * Users provide accurate registration details, and administrators maintain accurate event, pricing, and membership data.
+  * Stakeholders will provide timely business rules, workflows, and feedback.
+  * Users have appropriate permissions for their role, and the MEVN stack supports all target features.
+  * Payment gateway integration and email/notification services will be implemented post-MVP once core MVP requirements are completed.
   
   Dependencies
   
   The G1 Event Booking System will depend on the following resources and services: 
   
-  * Database Service: MongoDB will be required to store and manage user accounts, event details, booking records, and transaction information.  
-  * Application Technologies: Vue.js, Node.js, and Express.js will be required to develop and operate the frontend and backend components.  
-  * Hosting Environment: A suitable hosting platform will be needed to make the application accessible online.  
-  * Internet Connectivity: A stable internet connection will be necessary for users and administrators to access the system.  
-  * Payment Gateway: If online payment integration is implemented, the system will depend on a third-party payment provider to process transactions.  
-  * Email or Notification Service: If implemented, an external service may be required to send booking confirmations and ticket notifications.  
-  * Stakeholder Support: Timely feedback, approved requirements, and testing from stakeholders will be necessary to guide development and testing. 
+  * Database Service: MongoDB Atlas for persistent storage.
+  * Application Technologies: Vue.js, Node.js, Express.js, and Mongoose.
+  * Hosting & Network: GitHub Pages, AWS (or equivalent cloud host), and stable internet connectivity.
+  * External Services (Post-MVP): Third-party payment gateway for transaction processing and an external email/notification provider for transactional emails.
+  * Stakeholder Support: Timely requirement approvals and user acceptance testing.
 
 
 ## 5. Visual Mockup Reference
